@@ -31,6 +31,11 @@ public class Driver {
 			System.out.println("Street = " + tempAddress.getStreet());
 			System.out.println("City = " + tempAddress.getCity());
 			
+			// print out languages
+			for (String tempLang : theStudent.getLanguages()) {  //jab tak Student class ki sari language print nahi hoti ruko mat
+				System.out.println(tempLang);
+			}
+			
 			
 		}catch (Exception exc) {
 			
